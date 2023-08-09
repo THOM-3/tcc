@@ -130,7 +130,7 @@ h2 {
 
 .carousel.dragging{
     cursor: grab;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 .carousel.dragging img{
@@ -138,6 +138,7 @@ h2 {
 }
 
 .carousel img {
+    border-radius: 3%;
     height: 250px;
     object-fit: cover;
     margin-left: 14px;
