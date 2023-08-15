@@ -47,3 +47,19 @@ function restorePlaceholder(input) {
  carousel.addEventListener("mousemove", dragging);
  carousel.addEventListener("mouseup", dragStop);
 
+ function abrirPopUp() {
+   // Criar o elemento do pop-up
+   var popUp = document.createElement("div");
+   popUp.setAttribute("id", "meuPopUp");
+ 
+   // Adicionar a caixa de texto no pop-up
+   var inputEmail = document.createElement("input");
+   inputEmail.setAttribute("type", "text");
+   inputEmail.setAttribute("placeholder", "Digite seu e-mail");
+   popUp.appendChild(inputEmail);
+ 
+   // Adicionar o pop-up na tela
+   document.body.appendChild(popUp);
+ }
+ 
+

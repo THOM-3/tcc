@@ -19,6 +19,47 @@ header {
     overflow: hidden;
 }
 
+.buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .btn {
+    padding: 5px 5px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+  }
+
+  .transparent-btn {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 5px;
+  }
+  
+  .transparent-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5%;
+  }
+
+  #meuPopUp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  
+  
+
 .input{
     color: #fff;
 }
