@@ -123,7 +123,17 @@ h3 {
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10vh;
+    margin-left: 10%;
+    width: 25%;
+}
+
+.sub {
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center; 
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card{
@@ -267,16 +277,9 @@ hr {
     padding: 0 35px;
 }
 
-.sub {
-    display: flex;
-    margin-left: 67vh;
-    justify-content: center;
-    align-content: center;
-    width: 70vh;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .tit {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
