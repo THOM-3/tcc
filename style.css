@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
     justify-content: center;
     padding: 12px;
 }
+
 
 .input span {
     margin: -2px;
@@ -57,9 +59,6 @@ header {
     border-radius: 5px;
   }
   
-  
-  
-
 .input{
     color: #fff;
 }
@@ -179,6 +178,7 @@ h2 {
     scroll-behavior: smooth;
 }
 
+
 .carousel.dragging{
     cursor: grab;
     scroll-behavior:smooth;
@@ -276,6 +276,7 @@ hr {
     display: flex;
     padding: 0 35px;
 }
+
 
 
 .tit {
