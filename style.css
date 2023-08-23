@@ -19,6 +19,7 @@ header {
 .input span {
     margin: -2px;
     overflow: hidden;
+    width:auto;
 }
 
 .buttons {
@@ -123,7 +124,7 @@ h3 {
 h2 {
     font-family: 'Open Sans', sans-serif;
     margin-left: 10%;
-    width: 25%;
+    width: 35%;
 }
 
 .sub {
@@ -213,7 +214,7 @@ h2 {
 
 .footer {
     background-color: #292929;
-    height: 20vh;
+    height: 20%;
 }
 
 .footer a {
@@ -228,7 +229,7 @@ h2 {
 }
 
 .faq {
-    margin-left: 5vh;
+    margin-left: 5%;
 }
 
 hr {
@@ -253,7 +254,7 @@ hr {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     margin-top: 15px;
-    margin-left: 10vh;
+    margin-left: 10%;
     font-size: small;
 }
 
